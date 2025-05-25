@@ -1,0 +1,14 @@
+[package]
+name = "relational-db"
+version = "0.1.0"
+edition = "2024"
+default-run = "cli"
+
+[dev-dependencies]
+rand = "0.9.1"
+temp-dir = "0.1.16"
+
+[dependencies]
+once_cell = "1.21.3"
+regex = "1.11.1"
+rustyline = "16.0.0"
